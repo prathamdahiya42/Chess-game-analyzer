@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#2b2620" stroke="#d8cdb8" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base band -->
+    <path d="M32,247 L168,246 L160,228 L40,230 Z" />
+    <!-- tower body -->
+    <path d="M46,229 L154,227 L149,150 L138,148 L136,95 L64,97 L63,149 L51,151 Z" />
+    <!-- accent lines -->
+    <path d="M48,175 L152,173" fill="none" stroke-width="4" />
+    <path d="M55,120 L145,118" fill="none" stroke-width="4" />
+    <!-- crenellations -->
+    <path d="M60,95
+             L60,79 L77,78 L78,94
+             L84,94 L85,77 L102,76 L103,93
+             L109,93 L110,76 L127,77 L128,94
+             L134,95 Z" />
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#f6f1e4" stroke="#26221c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base -->
+    <path d="M29,247 L171,246 L162,227 L38,229 Z" />
+    <!-- collar band -->
+    <path d="M50,226 L150,224 L145,200 L56,202 Z" />
+    <!-- neck with accent band -->
+    <path d="M64,198 L136,196 L133,120 L67,122 Z" />
+    <path d="M78,196 L88,194 L86,124 L76,126 Z" fill="#26221c" />
+    <!-- double-lobe crown -->
+    <path d="M67,122
+             C58,108 58,90 72,82
+             C84,76 94,82 100,96
+             C106,82 117,76 129,83
+             C142,91 141,109 132,122
+             C118,132 108,132 100,120
+             C92,132 80,132 67,122 Z" />
+    <!-- jewel -->
+    <circle cx="100" cy="102" r="12" />
+    <!-- cross -->
+    <path d="M100,64 L100,42 M89,53 L111,53" fill="none" stroke-width="7" />
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#f6f1e4" stroke="#26221c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base -->
+    <path d="M31,247 L169,246 L161,229 L40,231 Z" />
+    <!-- collar bands -->
+    <path d="M52,228 L150,226 L145,205 L58,207 Z" />
+    <!-- crown body (zigzag) -->
+    <path d="M44,203
+             L52,150 L68,168 L84,140 L100,166 L116,138 L132,168 L148,148 L156,203 Z" />
+    <!-- tip balls -->
+    <circle cx="51" cy="146" r="9" />
+    <circle cx="83" cy="136" r="9" />
+    <circle cx="116" cy="134" r="9" />
+    <circle cx="148" cy="144" r="9" />
+    <circle cx="100" cy="162" r="7" />
+  </g>
+</svg>

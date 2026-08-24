@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#2b2620" stroke="#d8cdb8" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base -->
+    <ellipse cx="102" cy="238" rx="68" ry="14" />
+    <!-- neck/body -->
+    <path d="M60,232
+             C42,205 46,172 66,150
+             C58,140 55,128 63,118
+             C58,110 60,99 70,94
+             C90,84 108,80 126,86
+             C142,91 152,102 154,116
+             C155,130 149,141 138,148
+             C150,164 155,182 150,202
+             C147,215 140,226 128,232
+             C107,240 80,240 60,232 Z" />
+    <!-- ear / mane tuft -->
+    <path d="M70,94 L58,72 L52,96 Z" />
+    <!-- eye -->
+    <circle cx="120" cy="102" r="10" fill="#d8cdb8" />
+    <!-- nostril / mouth line -->
+    <path d="M78,138 C92,148 112,146 128,136" fill="none" stroke-width="5" />
+    <!-- mane line -->
+    <path d="M64,116 C80,110 96,112 108,120" fill="none" stroke-width="5" />
+  </g>
+</svg>

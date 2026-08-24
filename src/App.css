@@ -1,0 +1,138 @@
+/* Design System Utilities - Chess.com Aesthetic */
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #EEEED2;
+  background-color: #262421;
+}
+
+body {
+  margin: 0;
+  background-color: #262421;
+}
+
+/* Custom Dropdown/Select */
+.theme-select {
+  background-color: #262421 !important;
+  color: #EEEED2 !important;
+  border: 1px solid #403c38 !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  outline: none !important;
+  cursor: pointer !important;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease !important;
+}
+.theme-select:focus, .theme-select:hover {
+  border-color: #81b64c !important;
+  box-shadow: 0 0 0 2px rgba(129, 182, 76, 0.2) !important;
+}
+
+/* Custom Textarea */
+.theme-textarea {
+  background-color: #262421 !important;
+  color: #EEEED2 !important;
+  border: 1px solid #403c38 !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+  outline: none !important;
+  transition: border-color 0.2s ease !important;
+}
+.theme-textarea:focus {
+  border-color: #81b64c !important;
+}
+
+/* Primary Green Button (Analyze Game, Next) */
+.primary-btn {
+  background-color: #81b64c !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 8px 20px !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 6px -1px rgba(129, 182, 76, 0.4) !important;
+  transition: transform 0.15s ease, background-color 0.15s ease, box-shadow 0.15s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+.primary-btn:hover:not(:disabled) {
+  background-color: #95cd5d !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 12px -1px rgba(129, 182, 76, 0.5) !important;
+}
+.primary-btn:active:not(:disabled) {
+  transform: translateY(0) !important;
+}
+.primary-btn:disabled {
+  background-color: #403c38 !important;
+  color: #a3a19f !important;
+  cursor: not-allowed !important;
+  box-shadow: none !important;
+  opacity: 0.6 !important;
+}
+
+/* Secondary Button (Custom PGN, Flip, Navigation) */
+.secondary-btn {
+  background-color: #312e2b !important;
+  color: #EEEED2 !important;
+  border: 1px solid #403c38 !important;
+  border-radius: 8px !important;
+  padding: 8px 16px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+.secondary-btn:hover:not(:disabled) {
+  border-color: #81b64c !important;
+  background-color: #262421 !important;
+  color: #ffffff !important;
+}
+.secondary-btn:disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed !important;
+  background-color: #262421 !important;
+}
+
+/* Stop Button (Stop Analysis) */
+.stop-btn {
+  background-color: #b91c1c !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 8px 14px !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+}
+.stop-btn:hover {
+  background-color: #dc2626 !important;
+  transform: scale(1.02) !important;
+}
+
+/* Range Slider styling */
+input[type="range"].theme-slider {
+  accent-color: #81b64c !important;
+  cursor: pointer !important;
+}
+
+/* Panel Card Style */
+.panel-card {
+  background-color: #312e2b !important;
+  border: 1px solid #403c38 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.5), 0 4px 6px -2px rgba(0,0,0,0.5) !important;
+}

@@ -1,0 +1,79 @@
+{
+  "e4": {
+    "name": "King's Pawn Opening",
+    "e5": {
+      "name": "Open Game",
+      "Nf3": {
+        "name": "King's Knight Opening",
+        "Nc6": {
+          "name": "Four Knights Setup",
+          "Bb5": { "name": "Ruy López" },
+          "Bc4": { "name": "Italian Game" },
+          "d4": { "name": "Scotch Game" }
+        },
+        "d6": {
+          "name": "Philidor Defense"
+        },
+        "Nf6": {
+          "name": "Petrov's Defense"
+        }
+      }
+    },
+    "c5": {
+      "name": "Sicilian Defense",
+      "Nf3": {
+        "name": "Open Sicilian",
+        "d6": { "name": "Najdorf / Classical setup" },
+        "Nc6": { "name": "Classical Sicilian" },
+        "e6": { "name": "French Sicilian / Taimanov" }
+      },
+      "c3": { "name": "Alapin Sicilian" }
+    },
+    "e6": {
+      "name": "French Defense",
+      "d4": {
+        "name": "French Main Lines",
+        "d5": {
+          "name": "French Classical",
+          "Nc3": { "name": "French Winawer / Classical" },
+          "Nd2": { "name": "French Tarrasch" },
+          "e5": { "name": "French Advance" },
+          "exd5": { "name": "French Exchange" }
+        }
+      }
+    },
+    "c6": {
+      "name": "Caro-Kann Defense"
+    },
+    "d5": {
+      "name": "Scandinavian Defense"
+    }
+  },
+  "d4": {
+    "name": "Queen's Pawn Opening",
+    "d5": {
+      "name": "Closed Game",
+      "c4": {
+        "name": "Queen's Gambit",
+        "e6": { "name": "Queen's Gambit Declined" },
+        "dxc4": { "name": "Queen's Gambit Accepted" },
+        "c6": { "name": "Slav Defense" }
+      }
+    },
+    "Nf6": {
+      "name": "Indian Defense",
+      "c4": {
+        "name": "Indian Systems",
+        "g6": { "name": "King's Indian Defense" },
+        "e6": { "name": "Nimzo-Indian / Queen's Indian" },
+        "c5": { "name": "Benoni Defense" }
+      }
+    }
+  },
+  "c4": {
+    "name": "English Opening"
+  },
+  "Nf3": {
+    "name": "Réti Opening"
+  }
+}

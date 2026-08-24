@@ -1,0 +1,19 @@
+<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#f6f1e4" stroke="#26221c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base band -->
+    <path d="M33,247 L167,245 L159,229 L41,231 Z" />
+    <!-- collar band -->
+    <path d="M57,228 L146,226 L140,212 L61,214 Z" />
+    <!-- body -->
+    <path d="M77,213
+             C50,196 46,163 63,138
+             C74,121 82,112 88,98
+             C79,90 74,80 76,68
+             C77,52 90,40 102,41
+             C115,40 127,53 126,69
+             C127,81 121,90 112,97
+             C120,111 130,120 141,137
+             C160,164 154,197 126,214
+             C111,219 92,219 77,213 Z" />
+  </g>
+</svg>

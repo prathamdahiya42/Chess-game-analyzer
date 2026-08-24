@@ -1,0 +1,30 @@
+{
+  "name": "free-chess-game-analyzer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "copy:stockfish": "node -e \"const fs=require('fs');const p='public/stockfish';fs.mkdirSync(p,{recursive:true});['stockfish.js','stockfish.wasm','stockfish.wasm.js'].forEach(f=>fs.copyFileSync('node_modules/stockfish.js/'+f,p+'/'+f));console.log('Stockfish files copied to public/stockfish/')\"",
+    "postinstall": "pnpm run copy:stockfish"
+  },
+  "dependencies": {
+    "chess.js": "^1.4.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "stockfish.js": "^10.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "oxlint": "^1.71.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.1.1",
+    "vite-plugin-wasm": "^3.6.0"
+  }
+}

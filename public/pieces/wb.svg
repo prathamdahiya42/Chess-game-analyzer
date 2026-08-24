@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#f6f1e4" stroke="#26221c" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base -->
+    <ellipse cx="100" cy="238" rx="66" ry="14" />
+    <!-- body -->
+    <path d="M67,232
+             C48,205 52,170 68,142
+             C82,118 96,104 99,86
+             C88,80 82,68 88,56
+             C93,45 108,44 115,54
+             C122,64 118,77 106,85
+             C111,103 124,117 137,141
+             C154,169 156,205 133,232
+             C114,240 86,240 67,232 Z" />
+    <!-- slit -->
+    <path d="M78,163 C90,175 110,175 123,162" fill="none" stroke-width="5" />
+    <!-- cross on finial -->
+    <path d="M102,38 L102,26 M95,32 L109,32" fill="none" stroke-width="5" />
+  </g>
+</svg>
